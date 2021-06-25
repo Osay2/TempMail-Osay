@@ -30,12 +30,14 @@ def email():
         print(session.get_session_state()["email_address"])
 
 #Inicio
+os.system("clear")
 downloadguerrillaemail()        
 print("\n"+red+banner, blue+"By Osay\n")
 
 while True:
         print("\n\n")
-        print(green+"\tPresione enter o cualquier letra para generar el email. Si desea salir solo escriba ¨exit¨.")
+        print(green+"\tPresione enter o cualquier letra para generar el email.")
+        print(green+"Si desea salir escriba ¨exit¨.")
         loop = input(cyan+">>> ")
         if "exit" in loop:
                 print(green+"Okey, adios...")
@@ -45,7 +47,7 @@ while True:
         print(green+"Generando Email...")
         print(yellow+"")
         email()
-        print(green+"¡Email hecho!")
+        print(green+"\n¡Email hecho!")
 
 
         
