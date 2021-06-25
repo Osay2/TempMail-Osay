@@ -1,11 +1,12 @@
-#Librerias
-import time
-from guerrillamail import *
+#Librerias and Descarga
 import os
-
-#Descargas
 def downloadguerrillaemail():
         os.system("pip install python-guerrillamail >> exodf.txt")
+downloaderguerrillaemail()
+import time
+from guerrillamail import *
+
+
 
 #Variables
 banner = """╭━━━━╮╱╱╱╱╱╱╱╭━╮╭━╮╱╱╱╭╮╱╱╭━━━╮
