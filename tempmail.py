@@ -38,7 +38,7 @@ try:
         while True:
           print("\n\n")
           print(green+"\tPresione enter o cualquier letra para generar el email.")
-          print(green+"Si desea salir escriba ¨exit¨.")
+          print(green+"\tSi desea salir escriba ¨exit¨.")
           loop = input(cyan+">>> ")
           if "exit" in loop:
             
