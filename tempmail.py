@@ -45,11 +45,11 @@ try:
                 print(green+"Okey, adios...")
                 os.system("exit")
         
-        print()
-        print(green+"Generando Email...")
-        print(yellow+"")
-        email()
-        print(green+"\n¡Email hecho!")
+          print()
+          print(green+"Generando Email...")
+          print(yellow+"")
+          email()
+          print(green+"\n¡Email hecho!")
         
 
 except KeyboardInterrupt:
