@@ -2,7 +2,7 @@
 import os
 def downloadguerrillaemail():
         os.system("pip install python-guerrillamail >> exodf.txt")
-downloaderguerrillaemail()
+downloadguerrillaemail()
 import time
 from guerrillamail import *
 
