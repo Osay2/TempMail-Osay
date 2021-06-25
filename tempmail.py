@@ -43,6 +43,7 @@ try:
           if "exit" in loop:
             
                 print(green+"Okey, adios...")
+                print(reset+" ")
                 exit()
         
           print()
