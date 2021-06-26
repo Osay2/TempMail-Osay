@@ -32,7 +32,7 @@ def email():
 #Inicio
 try:
         os.system("clear")
-        downloadguerrillaemail()        
+                
         print("\n"+red+banner, blue+"By Osay\n")
 
         while True:
