@@ -53,7 +53,7 @@ try:
           print(green+"\n¡Email hecho!")
         
 
-except KeyboardInterrupt:
+except (KeyboardInterrupt, TypeError):
         print(red+"¡No presione nada al momento de generar!")
         print(green*"Reinicie el script...")
         
